@@ -20,6 +20,9 @@ def dividir(a, b):
         raise ValueError("No se puede dividir entre cero")
     return a / b
 
+def potencia(base, exponente):
+    """Retorna base elevado al exponente"""
+    return base ** exponente
 # Pruebas
 print(f"Suma: {sumar(10, 5)}")
 print(f"Resta: {restar(10, 5)}")
