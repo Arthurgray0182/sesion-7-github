@@ -2,6 +2,14 @@
 
 # Calculadora Básica - práctica sesión 7
 
+import math
+
+
+def raiz_cuadrada(numero):
+    """Retorna la raíz cuadrada de un número"""
+    return math.sqrt(numero)
+
+
 def sumar(a, b):
     """Retorna la suma de dos números"""
     return a + b
@@ -34,3 +42,5 @@ print(f"Suma: {sumar(10, 5)}")
 print(f"Resta: {restar(10, 5)}")
 print(f"Multiplicación: {multiplicar(10, 5)}")
 print(f"División: {dividir(10, 5)}")
+print(f"Potencia: {potencia(2, 3)}")
+print(f"Raíz cuadrada: {raiz_cuadrada(16)}")
