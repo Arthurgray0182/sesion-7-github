@@ -5,6 +5,11 @@
 import math
 
 
+def calcular_area_circulo(radio):
+    """Retorna el área de un círculo dado su radio"""
+    return math.pi * radio ** 2
+
+
 def raiz_cuadrada(numero):
     """Retorna la raíz cuadrada de un número"""
     return math.sqrt(numero)
@@ -44,3 +49,4 @@ print(f"Multiplicación: {multiplicar(10, 5)}")
 print(f"División: {dividir(10, 5)}")
 print(f"Potencia: {potencia(2, 3)}")
 print(f"Raíz cuadrada: {raiz_cuadrada(16)}")
+print(f"Área del círculo con radio 5: {calcular_area_circulo(5)}")
